@@ -1,0 +1,38 @@
+.container {
+    width: 500px;
+    height: 600px;
+    border: 3px black solid;
+    padding: 15px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    margin-top: 5px;
+    position: relative;
+}
+
+.item-3 {
+    left: 150px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.violeta {
+    background-color: purple;
+}

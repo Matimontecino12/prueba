@@ -1,0 +1,32 @@
+
+.container {
+    border: solid 2px rgb(82, 59, 59);
+    width: 100%;
+    height: 30%;
+    overflow: visible;
+    /*   sobre el eje x,sobre el eje y,sobre el radio.rafio-blur raido-spreeds*/
+    box-shadow: 15px 15px 15px 15px red /*(287, 31, 31, 6.572)*/;
+    background-image: url(../screens/Sin\ título.jpg);
+    background-size: 75px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  
+
+
+
+}
+
+
+p {
+    /* propiedades de texto/fuente */
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+
+}
+
+#mesiii {
+    font-family: serif;
+}

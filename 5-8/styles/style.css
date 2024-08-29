@@ -1,0 +1,61 @@
+.caja{
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: background,3s,ease,2s;
+    animation-name: cambiar-color;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+.caja:hover{
+    width: 200px;
+    height: 200px;
+    background:blue;
+    
+    
+}
+
+/* TRANSICIONES*/
+
+
+/* animaciones*/
+/* animation - keyframes*/
+
+@keyframes cambiar-color{
+    /* DESDE DONDE*/
+    0%{
+        background: red;
+    }
+    25%{
+        background: yellow;
+        transform:  translate(50px,50px);
+    }
+
+    50%{
+        background: indigo;
+        transform: rotate(50deg);
+    }
+    /*HASTA DONDE*/
+    100%{
+        background: orange;
+        transform: scale(1,5);
+    }
+}
+
+@keyframes mover{
+    0%{
+        transform: translate(10px,10px);
+    }
+
+    5%{
+        transform: translate(25px,10px);
+    }
+
+    100%{
+        transform: translate(-20px,-20px);
+    }
+}

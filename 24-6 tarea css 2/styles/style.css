@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+    border: solid 1px aqua;
+    background-color: aqua;
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+}
+
+
+
+#uno:target{
+   background-color: purple;
+
+}
+#dos:target{
+    background-color: purple;
+ 
+ }
+ #tres:target{
+    background-color: purple;
+ 
+ }
+ #cuatro:target{
+    background-color: purple;
+ 
+ }
+ #cinco:target{
+    background-color: purple;
+ 
+ }
+
+#cuadro{
+    border: solid 1px red ;
+    width: 400px;
+    height: 100px;
+    
+    
+
+}
+p{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: red;
+}

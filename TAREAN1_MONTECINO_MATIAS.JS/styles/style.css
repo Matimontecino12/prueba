@@ -1,0 +1,306 @@
+/* los cambios que hice fue que al apoyar el mouse se agrande la imagen y cambie de colores el header,footer  */
+/* Reset básico para eliminar márgenes y rellenos predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global para el body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Encabezado */
+header {
+  background: #a9e76e; /* Azul vibrante */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #a9e76e; /* Azul más oscuro para el borde inferior */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  max-width: 120px;
+  height: auto;
+}
+
+header .header-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 20px;
+}
+
+header .search-form {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+header .search-form input[type="search"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #11e4c1;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+header .search-form input[type="search"]:focus {
+  border-color: #11e4c1;
+  outline: none;
+}
+
+/* Navegación */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+  background: #11e4c1; /* Azul más oscuro para el hover */
+}
+
+/* Secciones principales */
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #11e4c1(0, 0, 0, 0.1);
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+section img:hover {
+  transform: scale(1.1); /* Aumenta la imagen al 110% de su tamaño original */
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h3 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para enlaces en secciones */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Formulario de contacto */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background: #0056b3;
+}
+
+/* Pie de página */
+footer {
+  background: #45721a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer iframe {
+  border: 0;
+  margin-top: 10px;
+}
+
+footer address {
+  font-style: normal;
+  margin-top: 10px;
+}
+
+/* Sección de "Próximamente" */
+#proximamente {
+  text-align: center;
+}
+
+#proximamente img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+}
+
+/* Estilos para la sección lateral en la página del cuento */
+aside {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 15px;
+}
+
+aside ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .search-form {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+
+  #proximamente img {
+    max-width: 100%;
+  }
+
+  aside {
+    margin-top: 20px;
+  }
+}

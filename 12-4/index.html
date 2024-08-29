@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <header>
+    <h1>clase </h1>
+    <h1>Formularios</h1>
+  </header>
+  <main>
+      <!-- etiqueta form-->
+      <form action="https://formsubmit.co/matimontecino12@gmail.com" method="post">
+         <!-- input tipo texto permite ingresar texto-->
+         <div>
+          <label for="nombre"> nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ingresa tu nombre cabro del mal">
+        </div>
+        <hr> 
+       <div> 
+          <label for="apellidos">apellidos</label>
+          <input type="password" id="apellidos" name="apellidos" placeholder="ingresa tus apellidos crabo del mal">
+      </div>
+      <hr>
+      <div>
+        <label for="numero">
+          tipo numero:
+            <input type="number" name="numero" id="numero">
+        </label>
+      </div>
+      <hr>
+      <div>
+        <label for="email">
+          tipo email:
+          <input type="email" id="mail" name="email">
+
+      </label>
+    </div>
+      <hr>
+      <div>
+        <label for="fecha">
+          fecha
+          <input type="date" name="fecha" id="fecha" required>
+      </label>
+    </div>
+    <hr>
+      <div>
+        <label for="contra">
+          contraseña
+          <input type="password" name="contra" id="contra">
+
+      </label>
+    </div>
+    <hr>
+    <div>
+      <label for="check">
+        seleccionar
+        <input type="checkbox" name="check" id="check">
+
+      </label>
+    </div>
+    <hr>
+    <div>
+       <label for="">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+       </label>
+            </form>
+          </div>
+          <input type="submit" value="enviar">
+          <hr>
+          <h2>15/4/2024</h2>
+          <hr>
+
+          <!-- select: una lista desplegable-->
+          <datalist></datalist>
+          <select name="" id="">
+            <option value=""  selected disabled> elige un color   </option>
+
+            <option value="verde">verde</option>
+            <option value="rosa" selected>rosa</option>
+            <option value="azul">azul</option>
+            <option value="amarillo">amarillo</option>
+          </select>
+            <h3>Autos</h3>
+            <select name="" id="">
+            <optgroup><label for="">4x4</label>
+              <option value="">toyota</option>
+            </optgroup>
+          </select>
+          <h2>otro formulario</h2>
+         <form action="">
+            <!-- division de tematocas de los compos del formulario-->
+
+            <fieldset>
+              <legend> nombre alumno
+              
+              </legend>
+              <label for="">alumno
+                <input type="text" name="" id="" placeholder="alumo">
+              </label>
+              <legend>datos de la escuela
+                <label for=""> dni
+                  <input type="text" name="" id="" placeholder="dni">
+                  reset borrar,submit enviar
+                </label>
+              </legend>
+            </fieldset>
+         </form>
+
+          
+
+          
+         
+  </main>
+  <footer>
+    <p>Matias Montecino</p>
+  </footer>
+</body>
+</html>

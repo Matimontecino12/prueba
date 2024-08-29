@@ -1,0 +1,69 @@
+:root{
+    --gris: gray;
+    --blanco: white;
+    --celeste: aquamarine;
+    --salmon: darksalmon;
+    --ancho: 400px;
+    --alto: 600px;
+}
+.container-cards{
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 2%;
+    width: var(--ancho);
+    height: var(--alto);
+    box-shadow: 5px 5px 5px 5px var(--gris);
+
+}
+
+#name {
+    color: var(--blanco);
+    height: calc(var(--alto)*0.3);
+    background-image: url(../media/verdadera.jpg);
+    background-size: cover;
+    margin: auto;
+    box-sizing: content-box;
+    font-family: Georgia;
+    font-size: 2em;
+    line-height: 6;
+    border-radius: 5% 5% 0% 0%;
+    text-align: center;
+    
+   
+    
+  
+    
+}
+
+.description {
+    height: calc(var(--alto)*0.5);
+    background-color: var(--celeste); 
+    text-align:center;
+    align-content: end;
+    font-size: 30px;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+.contactme {
+    height: calc(var(--alto)*0.2);
+    background-color: var(--salmon);
+    font-size: 15px;
+    border-radius:  0% 0% 5% 5%;
+    align-content: center;
+    text-align: center;
+    font-size: 23px;
+    
+
+
+
+
+    
+}

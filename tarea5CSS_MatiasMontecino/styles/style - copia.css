@@ -1,0 +1,124 @@
+.container {
+    width: 850px;
+    height: 1700px;
+    margin-left: 150px;
+    border: 3px black solid;
+    padding: 100px;
+    
+    
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    position: relative;
+    
+}
+
+
+.header{
+    background-image: url(../media/verdadera.jpg);
+    background-size: cover;
+    line-height: 20;
+    color: white;
+    text-align: center;
+    width: 700px;
+    height: 300px;
+    
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    justify-content: space;
+   
+    
+}
+a:hover{
+    color: black;
+    
+}
+
+
+
+.item-1{
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    line-height: 1;
+    
+    
+}
+
+
+.item-2{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    
+}
+
+.item-3 {
+    width: 200px;
+    height: 200px;
+    left: 250px;
+   
+    
+}
+
+
+
+
+.item-4 {
+   
+    height: 150px;
+    left: 450px;
+    bottom: 200px;
+    
+}
+
+.item-5 {
+    height: 150px;
+    left: 150px;
+    bottom: 353px;
+    
+}
+
+.item-6 {
+    
+    height: 200px;
+    left: 350px;
+    bottom: 304px;
+    
+}
+
+.item-7 {
+   
+    height: 200px;
+    left: 250px;
+    bottom: 506px;
+    
+}
+
+
+.rojo{
+    background-color: red;
+}
+.coral {
+    background-color: coral;
+}
+
+.verde {
+    background-color: green;;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+

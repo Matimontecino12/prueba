@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Asombrosas Aventuras de Nacho Martinez</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./media/logo - copia.jpeg"  type="image/jpeg">
+</head>
+
+<body>
+  <header>
+    <section>
+      <h1>Las Asombrosas Aventuras de Nacho Martinez</h1>
+      <img src="./media/logo.jpeg" alt="Logo">
+      <div>
+        <label for="Busqueda">Búsqueda:</label>
+        <input type="search" id="Busqueda" name="Busqueda">
+      </div>
+    </section>
+
+    <nav>
+      <h2>Categorías</h2>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acercadenosotros">Acerca de Nosotros</a></li>
+        <li><a href="#contactenos">Contáctenos</a></li>
+        <li><a href="#proximamente">Próximamente</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>Inicio</h1>
+
+      <section>
+        <h2>VIDA</h2>
+        <img src="./media/Vida/2.jpeg" alt="Vida">
+        <div>
+          <h3><a href="./screens/VIDA/los primeros años de nacho.html">Los primeros años de Nacho</a></h3>
+          <h3><a href="./screens/VIDA/Los valores de la familia.html">Los valores de la familia</a></h3>
+          <h3><a href="./screens/VIDA/El despertar de la justicia.html">El despertar de la justicia</a></h3>
+          <h3><a href="./screens/VIDA/El sueño de Nacho.html">El sueño de Nacho</a></h3>
+        </div>
+      </section>
+
+      <section>
+        <h2>CARRERA</h2>
+        <img src="./media/carrera/1.jpeg" alt="Carrera">
+        <div>
+          <h3><a href=".//screens/CARRERA/Los primeros pasos en la uiversidad.html">Los primeros pasos en la universidad</a></h3>
+          <h3><a href="./screens/CARRERA/Los desafios del camino.html">Los desafíos del camino</a></h3>
+          <h3><a href="./screens/CARRERA/El descubrimiento de su vocacion.html">El descubrimiento de su vocación</a></h3>
+          <h3><a href="./screens/CARRERA/El inicio se su carrera profesional.html">El inicio de su carrera profesional</a></h3>
+        </div>
+      </section>
+
+      <section>
+        <h2>CASOS</h2>
+        <img src="./media/casos/1.jpeg" alt="Casos">
+        <div>
+          <h3><a href="./screens/CASOS/El derecho a la vivienda.html">El derecho a la vivienda</a></h3>
+          <h3><a href="./screens/CASOS/La defensa de un acusado injustamente.html">La defensa de un acusado injustamente</a></h3>
+          <h3><a href="./screens/CASOS/La disputa de custodia.html">La disputa de custodia</a></h3>
+          <h3><a href="./screens/CASOS/La lucha por la igualdad.html">La lucha por la igualdad</a></h3>
+        </div>
+      </section>
+    </section>
+
+    <section id="acercadenosotros">
+      <h1>Acerca de Nosotros</h1>
+      <img src="./media/1.jpeg" alt="Nosotros 1">
+      <img src="./media/2.jpeg" alt="Nosotros 2">
+      <p>Somos un grupo de jóvenes con ganas de compartir historias de nuestros profesores en la secundaria (las historias no son reales).</p>
+    </section>
+
+    <section id="contactenos">
+      <h1>Contáctenos</h1>
+      <form action="https://formsubmit.co/your-email@example.com" method="POST">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        </div>
+        <div>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+        </div>
+        <div>
+          <label for="fecha">Fecha:</label>
+          <input type="date" id="fecha" name="fecha" required>
+        </div>
+        <div>
+          <label for="comentarios">Comentarios:</label>
+          <textarea id="comentarios" name="comentarios" cols="30" rows="10" placeholder="Escribe tus comentarios"></textarea>
+        </div>
+        <div>
+          <label for="sexo">Sexo:</label>
+          <select id="sexo" name="sexo" required>
+            <option value="" selected disabled>Selecciona una opción</option>
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="noloquierodecir">No lo quiero decir</option>
+          </select>
+        </div>
+        <div>
+          <h3>¿Te gustó nuestro contenido?</h3>
+          <label><input type="checkbox" name="feedback" value="si"> Sí</label>
+          <label><input type="checkbox" name="feedback" value="no"> No</label>
+          <label><input type="checkbox" name="feedback" value="masomenos"> Más o menos</label>
+        </div>
+        <div>
+          <h3>¿Te suscribiste a nuestros anuncios?</h3>
+          <label><input type="checkbox" name="subscription" value="si"> Sí</label>
+          <label><input type="checkbox" name="subscription" value="no"> No</label>
+        </div>
+        <div>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Borrar">
+        </div>
+      </form>
+    </section>
+
+    <section id="proximamente">
+      <h1>Próximamente</h1>
+      <h2>En construcción</h2>
+      <img src="./media/proximamente/1.png" alt="Construcción 1">
+      <img src="./media/proximamente/2.jpeg" alt="Construcción 2">
+      <img src="./media/proximamente/3.png" alt="Construcción 3">
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://www.instagram.com/tia_pocha/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.facebook.com/tia_pocha" target="_blank" rel="noopener noreferrer">Facebook</a>
+    <a href="https://twitter.com/tia_pocha" target="_blank" rel="noopener noreferrer">Twitter</a>
+    <br>
+    <a href="tel:+29446327">Teléfono: +2944 6327</a>
+    <br>
+    <a href="mailto:latia.pocha@example.com">Email: latia.pocha@example.com</a>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.0498713846364!2d-71.3115672245372!3d-40.207953574627226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96110f419778299d%3A0xdea3ffd3ba47a139!2sRancho%20de%20Manolo!5e0!3m2!1ses!2sar!4v1714167829320!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <address>Ruta Provincial 19 Km 12, Q8370 San Martín de los Andes, Neuquén</address>
+  </footer>
+</body>
+
+</html>

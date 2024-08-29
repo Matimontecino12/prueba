@@ -1,0 +1,35 @@
+.container{
+    width: 600px;
+    height: 600px;
+    border: 3px black solid;
+    padding: 15px;
+}
+.item{
+    position: relative ;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+
+
+.rojo {
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.morado{
+    background-color: purple;
+}
+
+.azul{
+    background-color: blue;
+}

@@ -1,0 +1,17 @@
+p{
+    font-size: 25px;
+    color: chartreuse;
+}
+
+p{
+    color: blue;
+}
+
+p{
+    color: coral;
+}
+
+.container .child{
+    color: black;
+    border: solid 1px black;
+}
